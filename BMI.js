@@ -34,6 +34,6 @@ button.addEventListener('click',()=>{
     }
 
     if(total>43 && total<=100){
-        text2.innerHTML = total + ':' + 'RIP'
+        text2.innerHTML = total + ':' + 'omg😒'
     }
 })
