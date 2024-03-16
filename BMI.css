@@ -1,0 +1,111 @@
+body{
+    height: 100vh;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,255,76);
+background: linear-gradient(135deg, rgba(0,255,76,1) 9%, rgba(0,255,187,1) 72%);
+}
+
+.main{
+    height: 500px;
+    width: 500px;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.19);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.7px);
+-webkit-backdrop-filter: blur(12.7px);
+border: 1px solid rgba(255, 255, 255, 0.12);
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+input{
+    margin: 0px 30px;
+}
+
+#height{
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: aquamarine;
+    outline: 3px solid greenyellow;
+}
+
+#weight::placeholder{
+    font-size: 16px;
+}
+
+#height::placeholder{
+    font-size: 16px;
+}
+
+#weight{
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: aquamarine;
+    outline: 3px solid greenyellow;
+    
+}
+
+button{
+    position: absolute;
+    top:400px ;
+    padding: 20px 50px;
+    border: none;
+    outline: none;
+    background: rgb(0,255,76);
+    background: linear-gradient(135deg, rgba(0,255,76,1) 9%, rgba(0,255,187,1) 72%);    
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:5px ;
+    transition: all ease-in-out 0.3s;
+}
+
+button:hover{
+scale: 0.9;
+border: 2px solid white;
+}
+
+button:active{
+    scale: 0.8;
+    border: none;
+    }
+
+    #btn2{
+        display: none;
+    }
+
+    h1{
+        position: absolute;
+        top: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: rgb(0, 255, 76);
+        background: linear-gradient(135deg, rgb(128, 255, 0) 9%, rgba(255,255,255,1) 57%);
+        background-clip:text;
+        color: transparent;
+        -webkit-background-clip: text;  
+        
+    }
+
+    .text1{
+        position: absolute;
+        top: 320px;
+        height: 50px;
+        width: 160px;
+        background-color: aquamarine;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
