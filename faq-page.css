@@ -1,0 +1,242 @@
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-size: 35px;
+    font-style: italic;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 188, 62);
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 35px;
+    font-style: italic;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+  }
+  
+  .main {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main1 {
+    width: 1000px;
+    height: 600px;
+    box-shadow: 10px 10px 25px rgb(160, 160, 160);
+    border-radius: 15px;
+    padding-left: 200px;
+  }
+  
+  .q1 {
+    width: 800px;
+    height: 70px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(170, 170, 170);
+    border-bottom: 3px solid orange;
+  }
+  
+  
+  .q1 p{
+       padding-top:10px ;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 20px;
+      /* text-align: center; */
+     margin-left: 40px;
+  }
+  
+  #para{
+      width: 650px;
+      height: 80px;
+      box-shadow: 5px 5px 20px rgb(173, 173, 173);
+      border-radius: 15px;
+      margin-top: 40px;
+      margin-left: 60px;
+      border-bottom: 3px solid orange;
+      border-top: 3px solid orange;
+      display: none;
+      overflow: hidden;
+  }
+  
+  #para1{
+    width: 650px;
+    height: 80px;
+    box-shadow: 5px 5px 20px rgb(173, 173, 173);
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-bottom: 3px solid orange;
+    border-top: 3px solid orange;
+    display: none;
+    overflow: hidden;
+  }
+  
+  #para2{
+    width: 650px;
+    height: 80px;
+    box-shadow: 5px 5px 20px rgb(173, 173, 173);
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-bottom: 3px solid orange;
+    border-top: 3px solid orange;
+    display: none;
+    overflow: hidden;
+  }
+  
+  #mark{
+      position: absolute;
+      right: 20px;
+      top: 10px;
+      border: 1px solid  rgb(255, 188, 62);
+      padding: 6px 8px;
+      font-size: 20px;
+      color:rgb(255, 188, 62);
+      cursor: pointer;
+      transition: all ease-in-out 0.3s;
+  }
+  
+  #mark:hover{
+    transform: rotate(45deg);
+  }
+  
+  #mark1{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    border: 1px solid  rgb(255, 188, 62);
+    padding: 6px 8px;
+    font-size: 20px;
+    color:rgb(255, 188, 62);
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  #mark1:hover{
+  transform: rotate(45deg);
+  }
+  
+  #mark2{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    border: 1px solid  rgb(255, 188, 62);
+    padding: 6px 8px;
+    font-size: 20px;
+    color:rgb(255, 188, 62);
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  #mark2:hover{
+  transform: rotate(45deg);
+  }
+  
+  
+  #minus{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    border: 1px solid  rgb(255, 188, 62);
+    padding: 6px 8px;
+    font-size: 20px;
+    color:rgb(255, 188, 62);
+    cursor: pointer;
+    display: none;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  #minus:hover{
+    transform: rotate(45deg);
+  }
+  
+  #minus1{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    border: 1px solid  rgb(255, 188, 62);
+    padding: 6px 8px;
+    font-size: 20px;
+    color:rgb(255, 188, 62);
+    cursor: pointer;
+    display: none;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  #minus1:hover{
+    transform: rotate(45deg);
+  }
+  
+  #minus2{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    border: 1px solid  rgb(255, 188, 62);
+    padding: 6px 8px;
+    font-size: 20px;
+    color:rgb(255, 188, 62);
+    cursor: pointer;
+    display: none;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  #minus2:hover{
+    transform: rotate(45deg);
+  }
+  
+  input{
+  
+    height: 50px;
+    width: 550px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 3px solid rgb(255, 179, 38);
+    outline: none;
+    font-size: 20px;
+    margin-left: 70px;
+    display: none;
+  }
+  
+  input::placeholder{
+    color: orange;
+    font-style: italic;
+    padding-left: 20px;
+  }
+  
+  button{
+    padding: 15px 25px;
+    background-color: white;
+    color: orange;
+    margin-top: 5px;
+    border: none;
+    border-bottom:2px solid orange;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+    font-weight: 600;
+    display: none;
+  }
+  
+  button:hover{
+    background-color: orange;
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  
+  button:active{
+    background-color: white;
+    color: orange;
+    border-bottom: 2px solid orange;
+  }
